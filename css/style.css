@@ -1,0 +1,682 @@
+.grid {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid2 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid3 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid4 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid5 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid6 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid7 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid8 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.grid9 {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+h1 {
+font-family: 'Gloock', serif;
+font-size: 70px;
+grid-area: 1/2/2/8;
+padding-top: 30px;
+z-index:1;
+}
+h2 {
+font-family: 'Gloock', serif;
+font-size: 40px;
+color:#610A3E;
+}
+h3 {
+font-size: 30px;
+}
+p {
+font-family: 'Onest', sans-serif;
+font-size: 20px;
+color: white;
+}
+.header {
+grid-area: 1/1/3/15;
+background-color: #EFC9D9;
+}
+.headerribbon {
+grid-area: 3/1/3/15;
+height: 15px;
+background-color: #610A3E;
+z-index: 1;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+}
+li a {
+display: block;
+color: white;
+background-color: #610A3E;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 30px;
+} 
+li a:hover {
+background-color: #AB8D96;
+}
+body {
+background-color: #AB8D96;
+font-family: 'Onest', sans-serif;
+}
+.navbar {
+grid-area: 2/8/2/13;
+z-index: 1;
+}
+.navbar2 {
+grid-area: 8/1/8/14;
+padding-top: 20px;
+padding-left: 90px;
+z-index: 1;
+}
+
+.homepage {
+height: 700px;
+grid-area: 3/7/11/15;
+padding-top: 15px;
+padding-left: 40px;
+overflow: hidden;
+}
+.title {
+grid-area: 4/2/4/8;
+padding-top:70px;
+color:#610A3E;
+}
+.homepage2 {
+grid-area: 6/2/6/8;
+padding-left: 10px;
+}
+.header2 {
+background-color: #f38fbb;
+grid-area: 10/1/12/15;
+}
+.homeintroduction {
+grid-area: 7/2/10/8;
+}
+
+.polaroid1 {
+height: 550px;
+grid-area: 3/1/8/7;
+z-index: 1;
+}
+.polaroid2 {
+height: 550px;
+grid-area: 4/3/8/8;
+}
+.polaroid3 {
+height: 850px;
+grid-area: 6/3/10/7;
+}
+.polaroid4 {
+height: 500px;
+grid-area: 7/1/11/6;
+padding-left: 80px;
+z-index: 1;
+}
+.polaroid5 {
+height: 550px;
+grid-area: 10/5/12/11;
+z-index: 1;
+}
+.polaroid6 {
+height: 550px;
+grid-area: 10/2/15/6;
+z-index: 1;
+}
+.polaroid7 {
+height: 550px;
+grid-area: 10/8/16/9;
+}
+.polaroid8 {
+height: 500px;
+grid-area: 11/11/15/14;
+}
+.aboutheader {
+background-color:#f38fbb;
+grid-area: 17/1/19/15;
+}
+.introduction2 {
+grid-area: 4/8/9/14;
+}
+
+.photographypolaroid {
+height: 500px;
+grid-area: 4/1/7/6;
+}
+.designpolaroid {
+height: 475px;
+grid-area: 4/5/7/9;
+padding-top: 20px;
+}
+.printmakingpolaroid {
+height: 460px;
+grid-area: 4/8/7/10;
+padding-top: 20px;
+}
+.paintingpolaroid {
+height: 500px;
+grid-area: 4/11/7/15;
+}
+.galleryheader {
+background-color:#f38fbb;
+grid-area: 10/1/12/15;
+}
+
+.title2 {
+grid-area: 4/3/4/8;
+padding-top: 20px;
+}
+.contact {
+grid-area: 5/3/8/8;
+}
+.contactpolaroid {
+height: 750px;
+grid-area: 2/8/6/14;
+padding-top: 60px;
+}
+.contactheader {
+background-color: #f38fbb;
+grid-area: 10/1/12/15;
+}
+
+.resume {
+height: 700px;
+grid-area: 4/2/7/11;
+}
+.title5 {
+grid-area: 4/8/4/12;
+}
+.resumeheader {
+background-color:#f38fbb;
+grid-area: 12/1/14/15;
+}
+.resume2 {
+grid-area: 5/8/9/13;
+}
+
+.photographyheader {
+background-color:white;
+grid-area: 8/1/10/15;
+}
+.photographyintroduction {
+grid-area: 4/5/4/9;
+}
+.photographyintroduction2 {
+grid-area: 5/5/8/12;
+}
+.photo1 {
+grid-area: 10/1/14/4;
+padding-top: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo2 {
+grid-area: 10/4/14/7;
+padding-top: 20px;
+padding-left: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo3 {
+grid-area: 10/7/14/12;
+padding-top: 20px;
+padding-left: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo4 {
+grid-area: 14/1/18/7;
+padding-top: 30px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo5 {
+grid-area: 18/4/22/10;
+padding-top: 40px;
+padding-left: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo6 {
+grid-area: 18/10/22/15;
+padding-top: 40px;
+padding-left: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo7 {
+grid-area: 10/12/14/15;
+padding-top: 20px;
+padding-left: 30px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo8 {
+grid-area: 14/7/18/12;
+padding-top: 30px;
+padding-left: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo9 {
+grid-area: 14/12/18/15;
+padding-top: 30px;
+padding-left: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo10 {
+grid-area: 18/1/22/4;
+padding-top: 40px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo11 {
+grid-area: 22/1/26/6;
+padding-top: 50px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo12 {
+grid-area: 22/6/26/12;
+padding-top: 50px;
+padding-left: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo13 {
+grid-area: 22/12/26/15;
+padding-top: 50px;
+padding-left: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo14 {
+grid-area: 26/1/30/7;
+padding-top: 60px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo15 {
+grid-area: 26/7/30/12;
+padding-top: 60px;
+padding-left: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photo16 {
+grid-area:26/12/30/15;
+padding-top: 60px;
+padding-left: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.photographyheader2 {
+grid-area: 31/1/33/15;
+background-color:#f38fbb;
+}
+
+
+.designheader {
+background-color:white;
+grid-area: 8/1/10/15;  
+z-index: -1;
+}
+.designintroduction {
+grid-area: 4/9/4/15;
+}
+.designintroduction2 {
+grid-area: 5/9/8/14;
+}
+.design1 {
+grid-area: 10/1/14/7;
+padding-top: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.design2 {
+grid-area: 14/1/18/7;
+padding-top: 30px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.design3 {
+grid-area: 18/1/22/7;
+padding-top: 40px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.design4 {
+grid-area: 22/1/26/7;
+padding-top: 50px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.design5 {
+grid-area: 26/1/30/7;
+padding-top: 60px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.design6 {
+grid-area: 30/1/34/7;
+padding-top: 70px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.designheader2 {
+background-color: #f38fbb;
+grid-area: 35/1/37/15;
+}
+.designtitle1 {
+grid-area: 10/7/10/15;
+padding-left: 10px;
+}
+.design1title1 {
+grid-area: 10/7/11/14;
+padding-left: 10px;
+padding-top: 60px;
+}
+.designtitle2 {
+grid-area: 14/7/14/15;
+padding-left: 10px;
+padding-top: 10px;
+}
+.design2title2 {
+grid-area: 14/7/14/14;
+padding-left: 10px;
+padding-top: 70px;
+}
+.designtitle3 {
+grid-area: 18/7/18/15;
+padding-left: 10px;
+padding-top: 20px;
+}
+.design3title3 {
+grid-area: 18/7/18/14;
+padding-left: 10px;
+padding-top: 80px;
+}
+.designtitle4 {
+grid-area: 22/7/22/15;
+padding-left:10px;
+padding-top: 30px;
+}
+.design4title4 {
+grid-area: 22/7/22/14;
+padding-left: 10px;
+padding-top: 90px;
+}
+.designtitle5 {
+grid-area: 26/7/26/15;
+padding-left:10px;
+padding-top: 40px;
+}
+.design5title5 {
+grid-area: 26/7/26/14;
+padding-left:10px;
+padding-top: 100px;
+}
+.designtitle6 {
+grid-area: 30/7/30/15;
+padding-left:10px;
+padding-top: 50px;
+}
+.design6title6 {
+grid-area: 30/7/30/14;
+padding-left: 10px;
+padding-top: 110px;
+}
+
+
+.printmakingheader {
+background-color:white;
+grid-area: 8/1/10/15;
+z-index: -1;
+}
+.printmakingintroduction {
+grid-area: 4/4/4/8;
+text-align: right;
+}
+.printmakingintroduction2 {
+grid-area: 5/2/8/8;
+text-align: right;
+}
+.print1 {
+grid-area: 10/1/14/7;
+padding-top: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.print2 {
+grid-area: 14/1/18/7;
+padding-top: 30px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.print3 {
+grid-area: 18/1/22/7;
+padding-top: 40px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.print4 {
+grid-area: 22/1/28/7;
+padding-top: 50px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.print5 {
+grid-area: 28/1/34/7;
+padding-top: 60px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.print6 {
+grid-area: 34/1/40/7;
+padding-top: 70px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.printtitle1 {
+grid-area: 10/7/10/15;
+padding-left: 10px;
+}
+.print1title1 {
+grid-area:10/7/10/14;
+padding-left: 10px;
+padding-top: 60px;
+}
+.printtitle2 {
+grid-area: 14/7/14/15;
+padding-left: 10px;
+padding-top: 10px;
+}
+.print2title2 {
+grid-area: 14/7/14/14;
+padding-left: 10px;
+padding-top: 70px;
+}
+.printtitle3 {
+grid-area: 18/7/18/15;
+padding-left: 10px;
+padding-top: 20px;
+}
+.print3title3 {
+grid-area: 18/7/18/14;
+padding-left: 10px;
+padding-top: 80px;
+}
+.printtitle4 {
+grid-area: 22/7/22/15;
+padding-left:10px;
+padding-top: 30px;
+}
+.print4title4 {
+grid-area: 22/7/22/14;
+padding-left: 10px;
+padding-top: 90px;
+}
+.printtitle5 {
+grid-area: 28/7/28/15;
+padding-left:10px;
+padding-top: 40px;
+}
+.print5title5 {
+grid-area: 28/7/28/14;
+padding-left: 10px;
+padding-top: 100px;
+}
+.printtitle6 {
+grid-area: 34/7/34/15;
+padding-left:10px;
+padding-top: 50px;
+}
+.print6title6 {
+grid-area: 34/7/34/14;
+padding-left: 10px;
+padding-top: 110px;
+}
+.printmakingheader2 {
+background-color:#f38fbb;
+grid-area: 41/1/43/15;
+}
+
+
+
+.paintingheader {
+background-color:white;
+grid-area: 8/1/10/15;
+z-index: -1;
+}
+.paintingintroduction {
+grid-area: 4/8/4/11;
+text-align: right;
+}
+.paintingintroduction2 {
+grid-area: 5/6/8/11;
+text-align: right;
+}
+.painting3 {
+grid-area: 10/1/14/7;
+padding-top: 20px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.painting2 {
+grid-area: 14/1/18/7;
+padding-top: 30px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.painting1 {
+grid-area: 18/1/22/7;
+padding-top: 40px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.paintingtitle1 {
+grid-area: 10/7/10/15;
+padding-left: 10px;
+}
+.painting1title1 {
+grid-area: 10/7/10/14;
+padding-left:10px;
+padding-top: 60px;
+}
+.paintingtitle2 {
+grid-area: 14/7/14/15;
+padding-left: 10px;
+padding-top: 10px;
+}
+.painting2title2 {
+grid-area: 14/7/14/14;
+padding-left: 10px;
+padding-top: 70px;
+}
+.paintingtitle3 {
+grid-area: 18/7/18/15;
+padding-left: 10px;
+padding-top: 20px;
+}
+.painting3title3 {
+grid-area: 18/7/18/14;
+padding-left: 10px;
+padding-top: 80px;
+}
+.paintingheader2 {
+background-color:#f38fbb;
+grid-area: 23/1/25/15;
+}
